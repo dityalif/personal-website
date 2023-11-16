@@ -4,8 +4,8 @@ import LinkedIn from '../../public/assets/linkedin.png'
 import Instagram from '../../public/assets/instagram.png'
 
 const data=[
-  {id: 1, name: 'LinkedIn', username: 'Muhammad Raditya Alif Nugroho', img:'../../public/assets/linkedin.png', link: 'https://www.linkedin.com/in/radityalif'},
-  {id: 2, name: 'Instagram', username: 'dityalif', img:'../../public/assets/instagram.png', link: 'https://www.instagram.com/dityalif/'}
+  {id: 1, name: 'LinkedIn', username: 'Muhammad Raditya Alif Nugroho', img:LinkedIn, link: 'https://www.linkedin.com/in/radityalif'},
+  {id: 2, name: 'Instagram', username: 'dityalif', img:Instagram, link: 'https://www.instagram.com/dityalif/'}
 ];
 
 const Contact = () => {
