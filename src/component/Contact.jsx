@@ -1,9 +1,11 @@
 import { useState } from 'react'
 import ContactCard from './ContactCard'
+import LinkedIn from '../../public/assets/linkedin.png'
+import Instagram from '../../public/assets/instagram.png'
 
 const data=[
-  {id: 1, name: 'LinkedIn', username: 'Muhammad Raditya Alif Nugroho', img:'/public/assets/linkedin.png', link: 'https://www.linkedin.com/in/radityalif'},
-  {id: 2, name: 'Instagram', username: 'dityalif', img:'/public/assets/instagram.png', link: 'https://www.instagram.com/dityalif/'}
+  {id: 1, name: 'LinkedIn', username: 'Muhammad Raditya Alif Nugroho', img:'../../public/assets/linkedin.png', link: 'https://www.linkedin.com/in/radityalif'},
+  {id: 2, name: 'Instagram', username: 'dityalif', img:'../../public/assets/instagram.png', link: 'https://www.instagram.com/dityalif/'}
 ];
 
 const Contact = () => {
@@ -13,7 +15,7 @@ const Contact = () => {
         <h1 className="text-center font-bold text-4xl py-5">You can Contact Me Here</h1>
         <div className='flex place-content-center'>
         {data.map((data) => 
-          <ContactCard name={data.name} username={data.username} img={data.img} link={data.link}/>
+          <ContactCard key={data.id} name={data.name} username={data.username} img={data.img} link={data.link}/>
         )}
         </div>
     </div>
