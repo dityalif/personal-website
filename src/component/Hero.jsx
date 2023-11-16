@@ -1,4 +1,4 @@
-import React from 'react'
+import Profile from 'src/assets/profile2.jpg'
 
 const Hero = () => {
   return (
@@ -11,7 +11,7 @@ const Hero = () => {
               Proficient problem solving and leadership skills. Have strong desire to learn new things.
           </p>
         </div>
-        <img src="src/assets/profile2.jpg" className="w-96 h-96 rounded-3xl mx-auto ml-10 shadow-2xl transition duration-200 hover:scale-105"/>
+        <img src={Profile} className="w-96 h-96 rounded-3xl mx-auto ml-10 shadow-2xl transition duration-200 hover:scale-105"/>
     </div>
   )
 }
