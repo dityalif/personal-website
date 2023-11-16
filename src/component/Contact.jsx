@@ -2,8 +2,8 @@ import { useState } from 'react'
 import ContactCard from './ContactCard'
 
 const data=[
-  {id: 1, name: 'LinkedIn', username: 'Muhammad Raditya Alif Nugroho', img:'../../public/assets/linkedin.png', link: 'https://www.linkedin.com/in/radityalif'},
-  {id: 2, name: 'Instagram', username: 'dityalif', img:'/public/assets/', link: 'https://www.instagram.com/dityalif/'}
+  {id: 1, name: 'LinkedIn', username: 'Muhammad Raditya Alif Nugroho', img:'/public/assets/linkedin.png', link: 'https://www.linkedin.com/in/radityalif'},
+  {id: 2, name: 'Instagram', username: 'dityalif', img:'/public/assets/instagram.png', link: 'https://www.instagram.com/dityalif/'}
 ];
 
 const Contact = () => {
