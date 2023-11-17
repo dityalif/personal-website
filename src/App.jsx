@@ -9,7 +9,7 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0)
   return (
-    <div className="bg-[#E7E7DE] font-sans min-h-screen">
+    <div className="bg-[#E7E7DE] font-sans min-h-screen min-w-min">
       <Navbar/>
       <Hero/>
       <Intro/>

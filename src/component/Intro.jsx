@@ -11,10 +11,9 @@ const data=[
 
 const Intro = () => {
     return (
-    <div className="my-20">
+    <div className="my-20 ">
         <h1 className="text-center font-bold text-4xl py-5">Get to Know Me</h1>
-        <div className="flex place-content-center">
-        
+        <div className="flex flex-col md:flex-row place-content-center">
         {data.map((data) => 
           <IntroCard key={data.id} title={data.title} text={data.text}/>
         )}
